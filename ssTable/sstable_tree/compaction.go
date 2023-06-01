@@ -4,7 +4,6 @@ import (
 	"encoding/binary"
 	"encoding/json"
 	"log"
-	"my_lsm/ssTable/sstable"
 	"os"
 	"sort"
 	"strconv"
@@ -13,6 +12,7 @@ import (
 	"my_lsm/config"
 	"my_lsm/entity"
 	"my_lsm/sorted_tree"
+	"my_lsm/ssTable/sstable"
 )
 
 // Check 检查是否需要进行压缩
